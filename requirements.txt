@@ -48,7 +48,7 @@ xlsxwriter==1.2.2
 pystache==0.5.4
 parsedatetime==2.4
 PyJWT==1.7.1
-cryptography==2.8
+cryptography==41.0.5
 simplejson==3.16.0
 ua-parser==0.8.0
 user-agents==2.0
@@ -59,7 +59,7 @@ gevent==1.4.0
 sshtunnel==0.1.5
 supervisor==4.1.0
 supervisor_checks==0.8.1
-werkzeug==0.16.1
+werkzeug==3.0.1
 # Install the dependencies of the bin/bundle-extensions script here.
 # It has its own requirements file to simplify the frontend client build process
 -r requirements_bundles.txt
