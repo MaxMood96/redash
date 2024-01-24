@@ -25,7 +25,9 @@
     "test:watch": "jest --watch",
     "cypress:install": "npm install --no-save cypress@~4.5.0 @percy/agent@0.26.2 @percy/cypress@^2.2.0 atob@2.1.2",
     "cypress": "node client/cypress/cypress.js",
-    "postinstall": "(cd viz-lib && npm ci && npm run build:babel)"
+    "postinstall": "(cd viz-lib && npm ci && npm run build:babel)",
+    "prepublish": "npm run snyk-protect",
+    "snyk-protect": "snyk-protect"
   },
   "repository": {
     "type": "git",
@@ -75,7 +77,8 @@
     "react-virtualized": "^9.21.2",
     "universal-router": "^8.3.0",
     "use-debounce": "^3.1.0",
-    "use-media": "^1.4.0"
+    "use-media": "^1.4.0",
+    "@snyk/protect": "latest"
   },
   "devDependencies": {
     "@babel/core": "^7.2.2",
@@ -89,8 +92,8 @@
     "babel-jest": "^24.1.0",
     "babel-loader": "^8.0.5",
     "babel-plugin-transform-builtin-extend": "^1.1.2",
-    "copy-webpack-plugin": "^4.5.3",
-    "css-loader": "^0.28.7",
+    "copy-webpack-plugin": "^5.1.2",
+    "css-loader": "^2.0.0",
     "enzyme": "^3.8.0",
     "enzyme-adapter-react-16": "^1.7.1",
     "enzyme-to-json": "^3.3.5",
@@ -124,10 +127,10 @@
     "request": "^2.88.0",
     "url-loader": "^1.1.2",
     "webpack": "^4.20.2",
-    "webpack-build-notifier": "^0.1.30",
-    "webpack-bundle-analyzer": "^2.11.1",
-    "webpack-cli": "^3.1.2",
-    "webpack-dev-server": "^3.1.9",
+    "webpack-build-notifier": "^1.2.2",
+    "webpack-bundle-analyzer": "^4.0.0",
+    "webpack-cli": "^3.3.5",
+    "webpack-dev-server": "^3.11.0",
     "webpack-manifest-plugin": "^2.0.4"
   },
   "optionalDependencies": {
@@ -164,5 +167,6 @@
     "and_ff >= 64",
     "and_uc >= 11.8",
     "samsung >= 6.2"
-  ]
+  ],
+  "snyk": true
 }
