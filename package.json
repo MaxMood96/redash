@@ -90,7 +90,7 @@
     "babel-loader": "^8.0.5",
     "babel-plugin-transform-builtin-extend": "^1.1.2",
     "copy-webpack-plugin": "^4.5.3",
-    "css-loader": "^0.28.7",
+    "css-loader": "^2.0.0",
     "enzyme": "^3.8.0",
     "enzyme-adapter-react-16": "^1.7.1",
     "enzyme-to-json": "^3.3.5",
@@ -124,10 +124,10 @@
     "request": "^2.88.0",
     "url-loader": "^1.1.2",
     "webpack": "^4.20.2",
-    "webpack-build-notifier": "^0.1.30",
+    "webpack-build-notifier": "^2.0.0",
     "webpack-bundle-analyzer": "^2.11.1",
-    "webpack-cli": "^3.1.2",
-    "webpack-dev-server": "^3.1.9",
+    "webpack-cli": "^3.3.5",
+    "webpack-dev-server": "^4.0.0",
     "webpack-manifest-plugin": "^2.0.4"
   },
   "optionalDependencies": {
