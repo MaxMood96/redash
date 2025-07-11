@@ -8,3 +8,4 @@ redash-stmo>=2025.5.1
 # These can be removed when upgrading to Python 3.x
 importlib-metadata>=1.6,<5.0.0  # remove when on 3.8
 importlib_resources==1.5  # remove when on 3.9
+urllib3>=2.5.0 # not directly required, pinned by Snyk to avoid a vulnerability
