@@ -38,7 +38,7 @@ greenlet==0.4.16
 rq==1.1.0
 rq-scheduler==0.9.1
 jsonschema==3.1.1
-RestrictedPython==5.0
+RestrictedPython==5.3
 pysaml2==6.5.0
 pycrypto==2.6.1
 funcy==1.13
