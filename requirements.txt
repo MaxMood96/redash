@@ -1,5 +1,5 @@
 Flask==1.1.1
-Jinja2==2.10.3
+Jinja2==2.11.3
 itsdangerous==1.1.0
 click==6.7
 MarkupSafe==1.1.1
@@ -66,3 +66,4 @@ werkzeug==0.16.1
 # Uncomment the requirement for ldap3 if using ldap.
 # It is not included by default because of the GPL license conflict.
 # ldap3==2.2.4
+urllib3>=1.26.5 # not directly required, pinned by Snyk to avoid a vulnerability
