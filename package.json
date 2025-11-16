@@ -130,7 +130,7 @@
     "file-loader": "^6.2.0",
     "html-webpack-plugin": "^4.5.2",
     "identity-obj-proxy": "^3.0.0",
-    "jest": "^24.1.0",
+    "jest": "^27.0.0",
     "less": "^3.13.1",
     "less-loader": "^5.0.0",
     "less-plugin-autoprefix": "^2.0.0",
